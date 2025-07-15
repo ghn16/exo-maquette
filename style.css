@@ -1,0 +1,186 @@
+/* Général */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f6fa;
+  color: #333;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+
+    top: 10px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  background-color: #7AA2FF;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  box-shadow: 0 2px 5px;
+}
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #4A55A2;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  background-color: #2D5298;
+  color: white;
+  padding: 60px 0;
+}
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text {
+
+  width: 400px;
+  height: 318px;
+  top: 52px;
+  left: 15px;
+  gap: 30px;
+
+}
+.hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.hero-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.hero-text button {
+  background-color: #7AA2FF;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  flex: 1;
+}
+
+/* Services */
+.services {
+  background-color: #fff;
+  padding: 60px 0;
+  text-align: center;
+}
+.services h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.services p {
+  margin-bottom: 30px;
+}
+.services-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.service-card {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  width: 230px;
+  padding: 20px;
+}
+.service-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.service-card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.service-card button {
+  background-color: #4A55A2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.discover-btn {
+  margin-top: 40px;
+  background-color: #7AA2FF;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Contact */
+.contact {
+  background-color: #eaf0ff;
+  padding: 60px 0;
+  text-align: center;
+}
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+}
+.contact button {
+  background-color: #7AA2FF;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Footer */
+footer {
+  background-color: #4A55A2;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}

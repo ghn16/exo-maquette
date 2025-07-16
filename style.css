@@ -5,7 +5,6 @@
     color: #000000;
     font-family: system-ui;
 }
-
 body{
     overflow-x:hidden ;
 }
@@ -25,7 +24,6 @@ img, svg{
     width: 100%;
     height: auto;
 }
-
 .container{
     max-width: 1074px;
     margin-right: auto;
@@ -33,11 +31,9 @@ img, svg{
     padding-right: 15px;
     padding-left: 15px;
 }
-
 main.main{
    min-height: calc(100vh - (105px + 124px)); 
 }
-
 /* header */
 .header{
     background-color: #fff;
@@ -56,12 +52,14 @@ main.main{
     height: 85px;
     border-radius: 50%;
     background-color: #7A96FF;
-    color: white;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
 }
-.header_left span{
+.logo_circle
+{
+    color: white;
+}
+.header_logo span{
     line-height: 85px;
 }
 .header_menu{
@@ -69,7 +67,6 @@ main.main{
     gap: 45px;
     justify-content: center;
 }
-
 /*footer*/
 .footer{
     background-color: #2D5298;

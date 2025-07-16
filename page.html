@@ -1,99 +1,131 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>exo maquette</title>
   <link rel="stylesheet" href="style.css">
+  <title>maquette</title>
 </head>
 <body>
-
-  <!-- En-tête de la page-->
-  <header>
-    <div class="container nav-container">
-      <div class="logo">LOGO</div>
-      <nav>
-        <a href="#">Accueil</a>
-        <a href="#">Blog</a>
-        <a href="#">Événement</a>
-        <a href="#">À propos</a>
-        <a href="#">Contacts</a>
-      </nav>
+  <!--en tete-->
+  <!--en tête-->
+<header class="header">
+  <div class="container">
+    <div class="header_content">
+      <a href="#" class="header_logo">
+        <span class="logo_circle">LOGO</span>
+      </a>
+      <ul class="header_menu">
+        <li class="header_menu_item"><a href="#" class="active">Accueil</a></li>
+        <li class="header_menu_item"><a href="#">Blog</a></li>
+        <li class="header_menu_item"><a href="#">Évènement</a></li>
+        <li class="header_menu_item"><a href="#">À propos</a></li>
+        <li class="header_menu_item"><a href="#">Contacts</a></li>
+      </ul>
     </div>
-  </header>
+  </div>
+</header>
 
-  <!-- Contenu principal de la page-->
-  <main>
 
-    <!-- Section Hero -->
-    <section class="hero">
-      <div class="container hero-content">
-        <div class="hero-text">
-          <h1>Work Hard</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure .</p>
-          <button>Découvrir</button>
-        </div>
-        <div class="hero-image">
-          <img src="fe2cab4b3631bcaf4cddd9f6bc31cb60b7a178af.png" alt="Illustration">
+  <main class="main">
+    <!--banniere-->
+    <section class="banner">
+      <div class="container">
+        <div class="banner_content">
+          <div class="banner_left">
+            <h1 class="banner_left_title">WORK HARD</h1>
+            <p class="banner_left_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis totam dolore fugit perferendis! Optio impedit a autem alias, laborum eveniet maiores cupiditate veritatis? Eligendi nulla cupiditate earum velit consequuntur dolor?</p>
+            <a href="#" class="banner_left_link">Découvrir</a>
+          </div>
+          <div class="banner_right">
+            <img src="baniere_image.png" alt="banner_image">
+          </div>
         </div>
       </div>
     </section>
-
-    <!-- Section Services -->
+    <!--services-->
     <section class="services">
       <div class="container">
-        <h2>Nos services</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-        <div class="services-grid">
-          <div class="service-card">
-            <img src="78c3840d484b0f30c3252893882ed80d6356886e.png" alt="">
-            <h3>Service 1</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button>Découvrir</button>
+        <div class="services_content">
+          <h2 class="services_title">Nos services</h2>
+          <p class="services_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, velit sequi error deserunt dolores sint sunt minus placeat aliquam est nulla quis tempore ullam deleniti repellendus vitae enim corporis recusandae.</p>
+          <div class="services_list">
+            <div class="services_list_item">
+            <img src="service_icon.png" alt="icon" class="services_image">
+            <h3 class="service_sub_title">service1</h3>
+            <p class="service_sub_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quae sed quo illum vel adipisci tempore repudiandae? Excepturi quos eveniet nihil sapiente. Hic id doloremque deleniti voluptates quasi nihil quaerat.</p>
+            <div class="banner_left_link">
+              <a href="#">Découvrir</a>
+            </div>
+            </div>
+            <div class="services_list_item">
+            <img src="service_icon.png" alt="icon" class="services_image">
+            <h3 class="service_sub_title">service2</h3>
+            <p class="service_sub_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quae sed quo illum vel adipisci tempore repudiandae? Excepturi quos eveniet nihil sapiente. Hic id doloremque deleniti voluptates quasi nihil quaerat.</p>
+            <div class="banner_left_link">
+              <a href="#">Découvrir</a>
+            </div>
+            </div>
+            <div class="services_list_item">
+            <img src="service_icon.png" alt="icon" class="services_image">
+            <h3 class="service_sub_title">service3</h3>
+            <p class="service_sub_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quae sed quo illum vel adipisci tempore repudiandae? Excepturi quos eveniet nihil sapiente. Hic id doloremque deleniti voluptates quasi nihil quaerat.</p>
+            <div class="banner_left_link">
+              <a href="#">Découvrir</a>
+            </div>
+            </div>
+            <div class="services_list_item">
+            <img src="service_icon.png" alt="icon" class="services_image">
+            <h3 class="service_sub_title">service4</h3>
+            <p class="service_sub_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quae sed quo illum vel adipisci tempore repudiandae? Excepturi quos eveniet nihil sapiente. Hic id doloremque deleniti voluptates quasi nihil quaerat.</p>
+            <div class="banner_left_link">
+              <a href="#">Découvrir</a>
+            </div>
+            </div>
           </div>
-          <div class="service-card">
-            <img src="78c3840d484b0f30c3252893882ed80d6356886e.png" alt="">
-            <h3>Service 2</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button>Découvrir</button>
-          </div>
-          <div class="service-card">
-            <img src="78c3840d484b0f30c3252893882ed80d6356886e.png" alt="">
-            <h3>Service 3</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button>Découvrir</button>
-          </div>
-          <div class="service-card">
-            <img src="78c3840d484b0f30c3252893882ed80d6356886e.png" alt="">
-            <h3>Service 4</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <button>Découvrir</button>
+          <div class="button_container">
+          <button class="services_content_button">
+            <a href="#">Découvrir</a>
+          </button>
           </div>
         </div>
-        <button class="discover-btn">Découvrir</button>
       </div>
     </section>
+    <!-- contact -->
+<section class="contact">
+  <div class="container">
+    <div class="contact_content">
+      <h2 class="contact_title">Pour nous contactez</h2>
+      <form class="contact_form">
+        <label for="nom">Nom et prénoms</label>
+        <input type="text" id="nom" placeholder="Nom et prénoms" required>
 
-    <!-- Section Contact -->
-    <section class="contact">
-      <div class="container">
-        <h2>Pour nous contacter</h2>
-        <form>
-          <input type="text" placeholder="Nom et prénoms" required>
-          <input type="email" placeholder="E-mail" required>
-          <input type="text" placeholder="Objet" required>
-          <textarea rows="5" placeholder="Message" required></textarea>
-          <button type="submit">Envoyez</button>
-        </form>
-      </div>
-    </section>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="E-mail" required>
+
+        <label for="objet">Objet</label>
+        <input type="text" id="objet" placeholder="Objet" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Message" rows="5" required></textarea>
+
+        <div class="button_container">
+          <button type="submit" class="contact_button">Envoyez</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
 
   </main>
-
-  <!-- Pied de page -->
-  <footer>
-    <p>Tous droits réservés, ©2023.</p>
+  <!--pied de page-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer_content">
+        <p>Tous droits réservés, @2023.</p>
+      </div>
+    </div> 
   </footer>
-
 </body>
 </html>

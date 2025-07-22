@@ -53,14 +53,17 @@ main.main{
     border-radius: 50%;
     background-color: #7A96FF;
     align-items: center;
-    justify-content: center;   
+    justify-content: center;  
+    
 }
 .logo_circle
 {
     color: white;
+    
 }
 .header_logo span{
     line-height: 85px;
+    
 }
 .header_menu{
     display: flex;
@@ -227,3 +230,28 @@ main.main{
 .contact_button:hover {
   background-color: #5e7dff;
 }
+@media(max-width: 920px){
+    
+    .services_list{
+        flex-wrap: wrap;
+        
+    }
+}   
+    @media(max-width: 589px){
+        .banner_content{
+            flex-wrap: wrap;
+        }
+        .header_menu{
+            display: none;
+        }
+        .banner_right{
+            display: none;
+        }
+        .services_list{
+            justify-content: center;
+        }
+    
+        
+        
+    }
+   
